@@ -1,0 +1,7 @@
+{
+    "name": "mktemp.bash",
+    "version": "1.0.0",
+    "description": "C's stdlib::mktemp like written in pure Bourne again shell",
+    "scripts": [ "mktemp.bash" ],
+    "install": "chmod +x mktemp.bash.sh && install mktemp.bash ${PREFIX:-/usr/local}/bin/mktemp.bash"
+}

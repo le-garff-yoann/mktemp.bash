@@ -1,0 +1,10 @@
+---
+image: $CI_REGISTRY/le-garff-yoann/docker-bash-assert:latest
+
+stages:
+  - test
+
+test:
+  stage: test
+  script:
+    - bash tests.sh
