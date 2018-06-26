@@ -1,5 +1,7 @@
 ---
-image: $CI_REGISTRY/le-garff-yoann/docker-bash-assert:latest
+image:
+  name: $CI_REGISTRY/le-garff-yoann/docker-bash-assert:latest
+  entrypoint: [ "/bin/sh", "-c" ]
 
 stages:
   - test
