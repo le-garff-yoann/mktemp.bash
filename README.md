@@ -1,5 +1,7 @@
 # mktemp.bash
 
+![Build status](https://gitlab.com/le-garff-yoann/mktemp.bash/badges/master/build.svg)
+
 C's `stdlib::mktemp` like written in pure Bourne again shell.
 
 ## Specification
